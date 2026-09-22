@@ -6,7 +6,7 @@ Compatible with **12.1.0** and **12.1.5**.
 
 ## Usage
 
-Right-click any player (yourself, party, raid, target, focus, friends, or guild). Two options appear:
+Right-click any player (yourself, party, raid, target, focus, friends list, guild), a premade group listing (group leader), or an LFG applicant. Two options appear:
 
 - **Open Raid Logs** — current raid parses (The Venomous Abyss)
 - **Open M+ Logs** — current Mythic+ season (Season 2)

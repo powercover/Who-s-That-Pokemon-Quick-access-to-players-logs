@@ -1,9 +1,9 @@
 ## Interface: 120100, 120105
 ## Title: Who's That Pokemon? Quick access to players logs
-## Notes: Right-click a unit frame to copy Warcraft Logs raid or M+ links.
+## Notes: Right-click unit frames or LFG premade groups to copy Warcraft Logs links.
 ## Author: powercover
-## Version: 1.0.9
-## IconTexture: Interface\Icons\inv_misc_book_09
+## Version: 1.2.2
+## IconTexture: Interface\AddOns\WhosThatPokemon\icon
 ## AllowLoadGameType: standard, mainline
 
 WhosThatPokemon.lua
