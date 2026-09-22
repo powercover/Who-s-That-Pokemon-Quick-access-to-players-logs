@@ -2,7 +2,7 @@
 ## Title: Who's That Pokemon? Quick access to players logs
 ## Notes: Right-click unit frames or LFG premade groups to copy Warcraft Logs links.
 ## Author: powercover
-## Version: 1.2.2
+## Version: 1.2.3
 ## IconTexture: Interface\AddOns\WhosThatPokemon\icon
 ## AllowLoadGameType: standard, mainline
 

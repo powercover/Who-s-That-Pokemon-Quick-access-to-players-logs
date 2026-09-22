@@ -73,6 +73,8 @@ local WCL_REALM_SLUGS = {
 	["d0b3d180d0bed0bc"] = "%D0%B3%D1%80%D0%BE%D0%BC",
 	["goldrinn"] = "%D0%B3%D0%BE%D0%BB%D0%B4%D1%80%D0%B8%D0%BD%D0%BD",
 	["d0b3d0bed0bbd0b4d180d0b8d0bdd0bd"] = "%D0%B3%D0%BE%D0%BB%D0%B4%D1%80%D0%B8%D0%BD%D0%BD",
+	["twilightshammer"] = "twilights-hammer",
+	["azjolnerub"] = "azjolnerub",
 }
 
 -- Lua 5.1 gsub("%80") is a capture; never encode with gsub. BYTE_HEX[128] is "%80".
@@ -265,15 +267,6 @@ local function RealmToSlug(realm)
 	end
 
 	local bytes = FoldRealmBytes(source, false)
-	if hadHyphen and not hadSpace then
-		local stripped = {}
-		for i = 1, #bytes do
-			if bytes[i] ~= 45 then
-				stripped[#stripped + 1] = bytes[i]
-			end
-		end
-		bytes = stripped
-	end
 
 	local clean = {}
 	for i = 1, #bytes do
